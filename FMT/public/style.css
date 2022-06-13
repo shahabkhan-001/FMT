@@ -1,0 +1,151 @@
+@keyframes tilt-in-top-1{0%{transform:rotateY(30deg) translateY(-300px) skewY(-30deg);opacity:0}100%{transform:rotateY(0deg) translateY(0) skewY(0deg);opacity:1}}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a,h6{
+    color: white !important;
+}
+h6{
+    padding: 5px!important;
+    border-radius: 5px;
+}
+.cards{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.list ul li {
+    list-style: none !important;
+}
+.head{
+    position: sticky;
+    top: 0;
+    /* width: 100%; */
+    z-index: 1;
+}
+.carouselOne{
+    height: 50% !important;
+}
+.imgEducation{
+    background-image: url("./img/exam.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center !important;
+    background-attachment: fixed;
+}
+.imgOne{
+    background-image: url("./img/mths.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center !important;
+    background-attachment: fixed;
+}
+.imgtwo{
+    background-image: url("./img/Chemical-Processing.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center !important;
+    background-attachment: fixed;
+}
+.imgThree{
+    background-image: url("./img/motion-balls.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center !important;
+    background-attachment: fixed;
+}
+.youtube {
+    background-color: #ff0000 !important;
+}
+.iframe{
+    display: flex;
+    overflow-x: scroll;
+}
+/* //////////ABOUT PAGE............... */
+.about{
+    border-radius: 25px 50px 100px 70px !important;
+    color: white;
+}
+h6 {
+    font-size: 24px !important;
+}
+.course{
+    border-radius: 25px 0 25px 0 !important;
+}
+/* //////////footer............... */
+footer .go {
+    display: flex;
+    justify-content: space-between;
+}
+footer ul li {
+    list-style: none !important;
+    padding: 5px;
+}
+footer ul {
+    display: flex;
+}
+.title {
+    font-size: 22px;
+}
+* ------------testinomial------------ */
+.testinomial{
+    padding-top: 100px;
+}
+.testinomial .col-3{
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+.testinomial img {
+    width: 50px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+
+.fa.fa-quote-left{
+    font-size: 34px;
+    color: #ff523b;
+}
+.testinomial p{
+    font-size: 12px;
+    margin: 12px 0;
+    color: #777;
+}
+.testinomial  h3{
+    font-weight: 600;
+    color: #555;
+    font-size: 16px;
+}
+.rating .fa{
+    color: #ff523b
+}
+
+/* ///////////Aniamtion.......... */
+.tilt-in-top-1{animation:tilt-in-top-1 .6s cubic-bezier(.25,.46,.45,.94) both}
+/* ///////REsponsive................... */
+@media only screen and (max-width : 840px) {
+    .carousel-inner {
+        height: 200px;
+    } .Class h6 {
+        font-size: 12px !important;
+    } .testinomial  p {
+        font-size: 12px !important;
+        padding-top: 0 !important;
+    } .testinomial  h3 {
+        font-size: 24px !important;
+    } footer {
+        padding: 5px !important;
+    } h2 {
+        font-size: 24px !important;
+    } .profile h5 {
+        font-size: 12px !important;
+    } .profile h2 {
+        font-size: 20px !important;
+    }  textarea {
+         height: 100px;
+    } h6 {
+        font-size: 16px !important;
+    }
+}
